@@ -1,0 +1,143 @@
+@media (max-width: 1200px) {
+  .footer__container {
+    width: 95%;
+  }
+  .footer__items {
+    margin-right: 20px;
+  }
+}
+@media (max-width: 992px) {
+  .footer__information {
+    flex-direction: column;
+    align-items: center;
+  }
+  .footer__items {
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+  .footer__contacts {
+    text-align: center;
+  }
+}
+@media (max-width: 768px) {
+  .footer__title {
+    font-size: 16px;
+  }
+  .footer__text {
+    font-size: 12px;
+  }
+  .footer__link {
+    font-size: 10px;
+  }
+  .footer__rights {
+    font-size: 12px;
+  }
+}
+@media (max-width: 576px) {
+  .footer__container {
+    width: 100%;
+    padding-top: 50px;
+  }
+  .footer__items {
+    padding-bottom: 20px;
+  }
+  .footer__title {
+    font-size: 14px;
+  }
+  .footer__text {
+    font-size: 10px;
+  }
+  .footer__link {
+    font-size: 8px;
+  }
+  .footer__rights {
+    font-size: 10px;
+  }
+}
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.footer {
+  background: #F6F6F8;
+}
+.footer__container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-top: 70px;
+}
+.footer__information {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  border-bottom: 1px solid #e0e0e0;
+  margin-right: -30px;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+.footer__items {
+  margin-right: 30px;
+  padding-bottom: 30px;
+  max-width: 100%;
+}
+.footer__title {
+  font-weight: 600;
+  font-size: 18px;
+  color: #000;
+  font-family: Montserrat;
+  line-height: 21.94px;
+  max-width: 100%;
+  word-wrap: break-word;
+}
+.footer__contacts {
+  margin-top: 35px;
+  max-width: 100%;
+}
+.footer__contact {
+  padding-bottom: 30px;
+  max-width: 100%;
+}
+.footer__link {
+  color: #999;
+  display: flex;
+  align-items: center;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.56;
+  max-width: 100%;
+  word-wrap: break-word;
+}
+.footer__icon {
+  margin-right: 10px;
+}
+.footer__text {
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22.19px;
+  text-align: left;
+  letter-spacing: 1px;
+  color: #999999;
+  max-width: 100%;
+  word-wrap: break-word;
+}
+.footer__rights {
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 1.61;
+  text-align: center;
+  color: #999;
+  padding-bottom: 30px;
+  padding-top: 30px;
+  max-width: 100%;
+}
+.footer ul {
+  list-style-type: none;
+}
+.footer a {
+  text-decoration: none;
+}
